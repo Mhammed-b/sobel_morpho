@@ -20,5 +20,6 @@ jobs:
 
     - run: |
         ./CMakeGCC.sh
-        make CMakeFile
+        cd /bin/make
+        make
         ./sobel.exe
