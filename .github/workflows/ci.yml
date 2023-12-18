@@ -22,4 +22,4 @@ jobs:
         ./CMakeGCC.sh
         cd bin/make
         make
-        ./sobel.exe
+        ./sobel
